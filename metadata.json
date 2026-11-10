@@ -1,0 +1,6 @@
+{
+  "name": "Food Circle - Food Safety Consultant Mumbai",
+  "description": "Food Circle is a professional food safety and regulatory compliance consultancy based in Mumbai, specializing in FSSAI compliance, FSSC 22000 audits, and HACCP systems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-arvo: 'Arvo', Georgia, 'Times New Roman', serif;
+    --font-heading: 'Arvo', Georgia, serif;
+    --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #202923;
+    background-color: #FAF8F1;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-arvo);
+    letter-spacing: -0.015em;
+  }
+}
+
+.font-arvo {
+  font-family: var(--font-arvo);
+}
+
+.font-serif {
+  font-family: var(--font-arvo);
+}
+
+.font-heading {
+  font-family: var(--font-arvo);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Subtle editorial text balance */
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* Custom smooth transitions & accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
